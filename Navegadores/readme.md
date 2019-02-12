@@ -11,6 +11,7 @@ https://github.com/HanseSecure/credgrap_ie_edge/blob/master/credgrap_ie_edge.ps1
 
 ### Chrome
 https://raw.githubusercontent.com/et0x/Get-ChromePasswords/master/Get-ChromePasswords.ps1
+https://github.com/HanseSecure/credgrap_chrome/blob/master/credgrap_chrome.ps1
 
 ### Mozilla Firefox
 https://gist.github.com/sergey-cheperis/64f28fd6e3ba69dc2d13dca826c1aa99
