@@ -16,6 +16,8 @@ https://github.com/PowerShellMafia/PowerSploit/blob/master/Exfiltration/Get-Keys
 ## Datos
 ### Sistema
 https://github.com/xorrior/RandomPS-Scripts/blob/master/Invoke-WindowsEnum.ps1
+### IP Real
+https://stackoverflow.com/questions/3303545/can-i-try-to-ping-a-website-through-a-specific-adapter
 ### Micrófono
 https://github.com/PowerShellMafia/PowerSploit/blob/master/Exfiltration/Get-MicrophoneAudio.ps1
 ### Navegadores
