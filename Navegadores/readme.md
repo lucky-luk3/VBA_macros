@@ -1,6 +1,8 @@
 # Navegadores
 ## Datos
 https://github.com/laconicwolf/PowerShell-BrowserData-Parsers
+https://github.com/HanseSecure/BrowserGather
+https://github.com/rvrsh3ll/Misc-Powershell-Scripts/blob/master/Get-BrowserData.ps1
 
 ## Contraseñas
 ### IExplorer
