@@ -48,10 +48,10 @@ https://github.com/xorrior/Random-CSharpTools
 ``` VBA
 Private Sub Document_Open()
 
-    ActiveDocument.ActiveWindow.View.ShowAll = True
+    ActiveDocument.ActiveWindow.View.ShowHiddenText = True
     ActiveDocument.ActiveWindow.View.ShowPicturePlaceHolders = False
     Word.Selection.Range.Sections.First.Range.Select
-    Selection.Font.Hidden = False
+    Selection.Font.Hidden = True
 
 End Sub
 ```
