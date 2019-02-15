@@ -50,6 +50,8 @@ Private Sub Document_Open()
 
     ActiveDocument.ActiveWindow.View.ShowAll = True
     ActiveDocument.ActiveWindow.View.ShowPicturePlaceHolders = False
+    Word.Selection.Range.Sections.First.Range.Select
+    Selection.Font.Hidden = False
 
 End Sub
 ```
