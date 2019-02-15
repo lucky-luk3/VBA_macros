@@ -42,3 +42,7 @@ https://github.com/xorrior/RandomPS-Scripts/blob/master/WMIBackdoor.ps1
 
 ## C#
 https://github.com/xorrior/Random-CSharpTools
+
+
+# Contenido
+
