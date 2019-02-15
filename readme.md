@@ -45,4 +45,11 @@ https://github.com/xorrior/Random-CSharpTools
 
 
 # Contenido
+``` VBA
+Private Sub Document_Open()
 
+    ActiveDocument.ActiveWindow.View.ShowAll = True
+    ActiveDocument.ActiveWindow.View.ShowPicturePlaceHolders = False
+
+End Sub
+```
